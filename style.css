@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body {
+    margin: 0;
+    font-family: 'Oswald' sans-serif;
+    background-color: gray;
+    /* background-image: url('assets/rocket.jpg');
+    background-repeat: no-repeat; */
+}
+
+.navbar {
+    background-color: gray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    margin-left: 15p x;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    left: 500px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff6568;
+}
+
+.title h2 {
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 600px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.entery {
+    margin-top: -37.5px;
+    display: grid;
+}
+
+.btn {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 300px;
+    width: 250px;
+    height: 75px;
+    font-family: 'Oswald' sans-serif;
+    background-color: #fff;
+    left: 330px;
+    border-radius: 30px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+
+.moonimg {
+    width: 100%;
+}
+
+.scroll {
+    position: relative;
+    left: 800px;
+    bottom: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
